@@ -1,3 +1,4 @@
+#This is dockerfile
 # Use Tomcat 9 as base image
 FROM tomcat:9.0
 
@@ -6,3 +7,5 @@ COPY target/*.war /usr/local/tomcat/webapps/ROOT.war
 
 # Start Tomcat
 CMD ["catalina.sh", "run"]
+
+
