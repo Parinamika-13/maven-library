@@ -1,4 +1,4 @@
-
+#This is dockerfile
 # Use Tomcat 9 as base image
 FROM tomcat:9.0
 
